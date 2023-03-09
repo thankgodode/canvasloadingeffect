@@ -5,6 +5,12 @@ let hue = 0;
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
+window.addEventListener("click",function(){
+	canvas.width = window.innerWidth;
+	canvas.height = window.innerHeight;
+}
+
+
 class LoadingAnimation {
   constructor() {
     this.p = 0;
